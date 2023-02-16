@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://alicornlunaa.github.io/digital_portfilio",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
