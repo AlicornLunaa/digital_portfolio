@@ -17,6 +17,8 @@
 
 h2 {
     font-style: normal;
+    padding-bottom: 5px;
+    /* border-bottom: 2px white solid; */
 }
 
 .showcaseprojects {

@@ -1,14 +1,22 @@
 import "./Showcase.css";
 
-function Showcase(){
+interface ShowcaseProps {
+    title: string;
+    description: JSX.Element;
+    link: string;
+}
+
+function Showcase(props: ShowcaseProps){
     return (
         <div className="showcaseblock">
-            <div className="showcasetitle">
-                Test
-            </div>
-            <div className="showcasecontent">
-                Lorem Ipsum
-            </div>
+            <a href={props.link}>
+                <div className="showcasetitle">
+                    {props.title}
+                </div>
+                <div className="showcasecontent">
+                    {props.description}
+                </div>
+            </a>
         </div>
     );
 }

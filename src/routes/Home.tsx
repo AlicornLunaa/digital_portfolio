@@ -1,7 +1,8 @@
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { IconButton } from '@mui/material';
+import { Box } from '@mui/system';
 import { Link } from 'react-router-dom';
-import Showcase from './Showcase';
+import Showcase from '../components/Showcase';
+import Projects from '../components/Projects';
 import "./Home.css";
 
 function Home(){
@@ -20,10 +21,9 @@ function Home(){
             </div>
             <div className="showcase">
                 <h2>Projects</h2>
-                <div className="showcaseprojects">
-                    <Showcase />
-                    <Showcase />
-                </div>
+                <Box display="flex" justifyContent="center" alignItems="center">
+                    <Projects/>
+                </Box>
             </div>
         </div>
     );

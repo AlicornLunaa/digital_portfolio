@@ -1,0 +1,41 @@
+.projectContent {
+    width: 100%;
+}
+
+.projectDetails {
+    background-color: #505050;
+    padding: 3rem;
+    text-align: left;
+}
+
+.projectTitle {
+    font-size: 50px;
+    color: #fff;
+}
+
+.projectDesc {
+    font-size: 24px;
+}
+
+.projectRepo {
+    text-decoration: none;
+    display: inline-flex;
+    vertical-align: middle;
+    width: auto;
+
+    transition: all .1s ease-in-out;
+}
+
+.projectRepo:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.projectImages {
+    padding-top: 40px;
+    max-width: 100%;
+}
+
+.projectVideos {
+    max-width: 100%;
+}
