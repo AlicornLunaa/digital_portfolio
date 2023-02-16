@@ -1,7 +1,6 @@
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Box } from '@mui/system';
 import { Link } from 'react-router-dom';
-import Showcase from '../components/Showcase';
 import Projects from '../components/Projects';
 import "./Home.css";
 
@@ -14,9 +13,9 @@ function Home(){
                     <div className="small">I like to make stuff.</div>
                 </div>
                 <div className="links">
-                    <Link to={"https://github.com/AlicornLunaa"}>
+                    {/* <Link to={"https://github.com/AlicornLunaa"}>
                         <GitHubIcon fontSize="large" sx={{ color: "white" }} />
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
             <div className="showcase">

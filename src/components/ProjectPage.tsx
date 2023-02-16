@@ -1,4 +1,3 @@
-import Carousel from "react-material-ui-carousel";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import "./ProjectPage.css"
 
@@ -24,21 +23,17 @@ function ProjectPage(props: ProjectProps){
             { props.images != null &&
                 <div className="projectImages">
                     <h2>Images</h2>
-                    <Carousel>
-                        {
-                            props.images.map((item, i) => <img src={item}></img> )
-                        }
-                    </Carousel>
+                    {
+                        props.images.map((item, i) => <div><img src={item}></img></div> )
+                    }
                 </div>
             }
             { props.videos != null &&
                 <div className="projectVideos">
                     <h2>Videos</h2>
-                    <Carousel>
-                        {
-                            props.videos.map((item, i) => <iframe width="1280" height="720" src={item} allowFullScreen></iframe> )
-                        }
-                    </Carousel>
+                    {
+                        props.videos.map((item, i) => <div><iframe width="1280" height="720" src={item} allowFullScreen></iframe></div> )
+                    }
                 </div>
             }
             { props.children != null &&
