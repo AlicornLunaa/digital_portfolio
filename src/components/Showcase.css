@@ -1,0 +1,21 @@
+.showcaseblock {
+    background-color: #505050;
+    width: 480px;
+    height: 340px;
+    
+    transition: all .2s ease-in-out; 
+}
+
+.showcasetitle {
+    padding: 20px;
+    background-color: #363636;
+}
+
+.showcasecontent {
+    padding: 15px;
+    background-color: #505050;
+}
+
+.showcaseblock:hover {
+    transform: scale(1.1); 
+}

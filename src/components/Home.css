@@ -11,10 +11,15 @@
     padding-top: 20px;
 }
 
-.big {
-    font-size: 60px;
-}
-
 .small {
     font-size: 30px;
+}
+
+h2 {
+    font-style: normal;
+}
+
+.showcaseprojects {
+    display: flex;
+    justify-content: center;
 }
