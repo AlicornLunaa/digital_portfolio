@@ -1,0 +1,20 @@
+.header {
+    padding: 6rem;
+    font-size: 50px;
+    text-align: left;
+    background-color: #131313;
+    margin: 0;
+}
+
+.links {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.big {
+    font-size: 60px;
+}
+
+.small {
+    font-size: 30px;
+}
