@@ -1,9 +1,10 @@
 import { Route, Routes } from 'react-router-dom'
 import Home from "./routes/Home"
 import SpaceGame from './routes/SpaceGame'
-import './App.css'
 import AutomatingMinecraft from './routes/AutomatingMinecraft'
 import Billiards from './routes/Billiards'
+import Pacman from './routes/Pacman'
+import './App.css'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/SpaceGame" element={<SpaceGame />} />
         <Route path="/AutomatingMinecraft" element={<AutomatingMinecraft />} />
         <Route path="/Billiards" element={<Billiards />} />
+        <Route path="/Pacman" element={<Pacman />} />
       </Routes>
     </div>
   )
