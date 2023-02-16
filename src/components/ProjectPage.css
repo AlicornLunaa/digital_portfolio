@@ -31,16 +31,16 @@
     transform: scale(1.05);
 }
 
-.projectImages {
-    max-width: 100%;
+.projectImages img {
+    max-width: 80%;
 }
 
 .projectImages p {
     padding-top: 40px;
 }
 
-.projectVideos {
-    max-width: 100%;
+.projectVideos iframe {
+    max-width: 80%;
 }
 
 .projectVideos p {

@@ -22,9 +22,9 @@ function ProjectPage(props: ProjectProps){
                 }
             </div>
             { props.images != null &&
-                <div>
+                <div className="projectImages">
                     <h2>Images</h2>
-                    <Carousel className="projectImages">
+                    <Carousel>
                         {
                             props.images.map((item, i) => <img src={item}></img> )
                         }
@@ -34,7 +34,7 @@ function ProjectPage(props: ProjectProps){
             { props.videos != null &&
                 <div className="projectVideos">
                     <h2>Videos</h2>
-                    <Carousel className="projectImages">
+                    <Carousel>
                         {
                             props.videos.map((item, i) => <iframe width="1280" height="720" src={item} allowFullScreen></iframe> )
                         }
