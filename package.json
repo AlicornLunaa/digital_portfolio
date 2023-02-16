@@ -1,9 +1,9 @@
 {
-  "name": "digital_portfilio",
+  "name": "digital_portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://alicornlunaa.github.io/digital_portfilio",
+  "homepage": "https://alicornlunaa.github.io/digital_portfolio",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
