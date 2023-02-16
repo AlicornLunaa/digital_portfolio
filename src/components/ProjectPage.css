@@ -14,7 +14,7 @@
 }
 
 .projectDesc {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .projectRepo {
@@ -32,10 +32,17 @@
 }
 
 .projectImages {
-    padding-top: 40px;
     max-width: 100%;
+}
+
+.projectImages p {
+    padding-top: 40px;
 }
 
 .projectVideos {
     max-width: 100%;
+}
+
+.projectVideos p {
+    padding-top: 40px;
 }
