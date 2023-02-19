@@ -3,7 +3,7 @@ import Showcase from "./Showcase";
 
 function Projects(){
     return (
-        <Grid container spacing={4} paddingLeft={8} paddingRight={8} paddingBottom={8} justifyContent="center">
+        <Grid container spacing={4} padding="1rem" justifyContent="center" columns={{ sm: 1, md: 12 }}>
             <Grid xs={4} item>
                 <Showcase title="Space Game" description={<p>A 2D survival orbit-based game.</p>} link="./#/SpaceGame" />
             </Grid>

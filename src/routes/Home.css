@@ -1,27 +1,43 @@
 .header {
-    padding: 6rem;
-    font-size: 50px;
-    text-align: left;
-    background-color: #131313;
+    color: var(--textCol2);
+    background-color: var(--darkCol);
+
     margin: 0;
+    padding: 16rem 5rem;
+
+    font-size: var(--fontSize4);
+    text-align: left;
 }
 
-.links {
-    font-size: 20px;
-    padding-top: 20px;
+.subheader {
+    font-size: var(--fontSize3);
 }
 
-.small {
-    font-size: 30px;
+.body {
+    margin: 0 auto;
+    max-width: 80rem;
 }
 
-h2 {
-    font-style: normal;
-    padding-bottom: 5px;
-    /* border-bottom: 2px white solid; */
+.section {
+    color: var(--textCol1);
+
+    border: 1px solid var(--darkCol);
+    border-radius: 1em;
+
+    margin: 1.618rem;
 }
 
-.showcaseprojects {
-    display: flex;
-    justify-content: center;
+.section p {
+    margin: 0rem;
+    padding: 1rem 1rem 0rem;
+}
+
+.section-header {
+    font-size: var(--fontSize2);
+    font-weight: 400;
+}
+
+.section-content {
+    padding: 0em 1.618em 1.618em;
+    text-align: left;
 }

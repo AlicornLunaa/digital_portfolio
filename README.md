@@ -7,3 +7,5 @@ Project Showcases:
 * https://github.com/AlicornLunaa/GrapplingHook (Showcase code)
 * https://github.com/AlicornLunaa/BoatSoccer (Showcase code)
 * https://github.com/garrettblankenship456/Pacman (Showcase video)
+
+https://coolors.co/2c363f-f2f5ea-9799ca-f6799c-c395ee

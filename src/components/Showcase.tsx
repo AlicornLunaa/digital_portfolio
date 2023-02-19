@@ -8,16 +8,10 @@ interface ShowcaseProps {
 
 function Showcase(props: ShowcaseProps){
     return (
-        <div className="showcaseblock">
-            <a href={props.link}>
-                <div className="showcasetitle">
-                    {props.title}
-                </div>
-                <div className="showcasecontent">
-                    {props.description}
-                </div>
-            </a>
-        </div>
+        <div className="showcase"><a href={props.link}>
+            <div className="showcase-title">{props.title}</div>
+            <div className="showcase-content">{props.description}</div>
+        </a></div>
     );
 }
 

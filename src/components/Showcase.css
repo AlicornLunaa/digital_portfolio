@@ -1,24 +1,33 @@
-.showcaseblock {
+.showcase {
+    color: var(--textCol2);
     background-color: #505050;
+
+    border: 1px solid var(--darkCol);
+    border-radius: 20px;
+    
     transition: all .2s ease-in-out; 
 }
 
-.showcaseblock a {
-    text-decoration: none;
-    color: white;
-}
-
-.showcasetitle {
-    padding: 20px;
-    font-size: 28px;
-    background-color: #363636;
-}
-
-.showcasecontent {
-    padding: 15px;
-    background-color: #505050;
-}
-
-.showcaseblock:hover {
+.showcase:hover {
     transform: scale(1.1); 
+}
+
+.showcase a {
+    text-decoration: none;
+}
+
+.showcase-title {
+    color: var(--textCol2);
+    background-color: var(--primaryCol);
+    border-radius: 20px 20px 0px 0px;
+    font-size: var(--fontSize2);
+    padding: 1em;
+}
+
+.showcase-content {
+    color: var(--textCol1);
+    background-color: #d0d0d0;
+    border-radius: 0px 0px 20px 20px;
+    font-size: var(--fontSize1);
+    padding: 1em;
 }
