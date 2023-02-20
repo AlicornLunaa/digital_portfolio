@@ -3,13 +3,13 @@
     background-color: #505050;
 
     border: 1px solid var(--darkCol);
-    border-radius: 20px;
+    border-radius: 10px;
     
     transition: all .2s ease-in-out; 
 }
 
 .showcase:hover {
-    transform: scale(1.1); 
+    transform: scale(1.025); 
 }
 
 .showcase a {
@@ -19,7 +19,7 @@
 .showcase-title {
     color: var(--textCol2);
     background-color: var(--primaryCol);
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     font-size: var(--fontSize2);
     padding: 1em;
 }
@@ -27,7 +27,7 @@
 .showcase-content {
     color: var(--textCol1);
     background-color: #d0d0d0;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 10px 10px;
     font-size: var(--fontSize1);
     padding: 1em;
 }

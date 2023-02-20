@@ -41,3 +41,9 @@
     padding: 0em 1.618em 1.618em;
     text-align: left;
 }
+
+#header-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

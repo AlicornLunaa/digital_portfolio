@@ -1,23 +1,25 @@
 .projectContent {
+    color: var(--textCol2);
     width: 100%;
 }
 
 .projectDetails {
-    background-color: #505050;
+    background-color: var(--darkCol);
     padding: 3rem;
     text-align: left;
 }
 
 .projectTitle {
-    font-size: 50px;
-    color: #fff;
+    font-size: var(--fontSize3);
 }
 
 .projectDesc {
-    font-size: 22px;
+    font-size: var(--fontSize2);
 }
 
 .projectRepo {
+    color: var(--secondaryCol);
+
     text-decoration: none;
     display: inline-flex;
     vertical-align: middle;
@@ -27,7 +29,7 @@
 }
 
 .projectRepo:hover {
-    color: #fff;
+    color: var(--activeCol);
     transform: scale(1.05);
 }
 
@@ -45,4 +47,8 @@
 
 .projectVideos p {
     padding-top: 40px;
+}
+
+h2 {
+    color: var(--textCol1);
 }
