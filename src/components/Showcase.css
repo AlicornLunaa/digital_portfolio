@@ -1,6 +1,6 @@
 .showcase {
     color: var(--textCol2);
-    background-color: #505050;
+    background-color: var(--primaryCol);
 
     border: 1px solid var(--darkCol);
     border-radius: 10px;
@@ -9,7 +9,8 @@
 }
 
 .showcase:hover {
-    transform: scale(1.025); 
+    background-color: var(--accentCol);
+    transform: scale(1.025);
 }
 
 .showcase a {
@@ -18,7 +19,6 @@
 
 .showcase-title {
     color: var(--textCol2);
-    background-color: var(--primaryCol);
     border-radius: 10px 10px 0px 0px;
     font-size: var(--fontSize2);
     padding: 1em;
@@ -29,5 +29,5 @@
     background-color: #d0d0d0;
     border-radius: 0px 0px 10px 10px;
     font-size: var(--fontSize1);
-    padding: 1em;
+    padding-bottom: 1rem;
 }

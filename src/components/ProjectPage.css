@@ -4,7 +4,7 @@
 }
 
 .projectDetails {
-    background-color: var(--darkCol);
+    background-color: var(--primaryCol);
     padding: 3rem;
     text-align: left;
 }
@@ -29,7 +29,7 @@
 }
 
 .projectRepo:hover {
-    color: var(--activeCol);
+    color: var(--accentCol);
     transform: scale(1.05);
 }
 

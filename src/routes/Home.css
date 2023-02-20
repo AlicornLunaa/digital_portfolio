@@ -1,6 +1,6 @@
 .header {
     color: var(--textCol2);
-    background-color: var(--darkCol);
+    background-color: var(--primaryCol);
 
     margin: 0;
     padding: 16rem 5rem;
@@ -9,8 +9,13 @@
     text-align: left;
 }
 
+.intro {
+    width: fit-content;
+}
+
 .subheader {
     font-size: var(--fontSize3);
+    width: fit-content;
 }
 
 .body {
