@@ -1,10 +1,15 @@
 function AboutMe(){
     return (
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet nibh lectus. Donec molestie, massa at cursus pharetra, ante dolor maximus dolor, ut lobortis nunc nunc a nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin hendrerit diam vel neque varius ornare. Integer tempor libero vel cursus commodo. Pellentesque vel dapibus nunc. Curabitur luctus orci ut mi luctus bibendum. Vivamus tristique ligula odio, eget tempor velit dapibus id. Curabitur scelerisque, orci ac aliquam congue, nibh dolor pretium dui, in facilisis odio odio at odio.
-            Vivamus pulvinar dolor ut justo lacinia fringilla. Mauris semper accumsan leo sit amet sollicitudin. Maecenas ac risus pellentesque, varius tortor aliquam, suscipit massa. In ipsum ipsum, scelerisque id tincidunt nec, fermentum vel mauris. Fusce ac sapien massa. Fusce gravida blandit lectus, eu pretium mauris faucibus eget. Suspendisse ut neque tempus, feugiat augue eget, hendrerit augue. Ut porta arcu tincidunt fermentum rhoncus. Etiam erat mauris, tristique non lobortis id, posuere vitae ligula. Ut sit amet sem sit amet ipsum consectetur pharetra.
-            Sed luctus arcu ac lacus gravida tristique. Praesent at erat dignissim, placerat est eu, porta purus. Curabitur eget cursus purus, in luctus orci. Donec sit amet neque justo. Cras molestie luctus sodales. Integer sit amet vestibulum nulla, non pulvinar lacus. In sed elementum dolor. Vivamus non mollis ante. Sed ut nisi mollis, sagittis nunc et, iaculis ante. Cras tincidunt metus ac pellentesque pharetra. Nam malesuada quam urna, quis maximus sem tristique ac. Ut ac lectus vitae tortor luctus tristique. Suspendisse massa augue, dictum eu consectetur quis, ultricies vel leo.
-            Vivamus semper et leo vel semper. Quisque laoreet ut turpis eu cursus. Aliquam sit amet ullamcorper urna. Proin vehicula, mi in venenatis mollis, tellus ex dictum justo, at congue tellus felis eget tellus. Nam at malesuada justo. Cras tristique arcu tellus, et imperdiet libero imperdiet a. Quisque accumsan mollis elit sed bibendum. Praesent eu bibendum nulla, non cursus magna. Nulla venenatis magna ac massa elementum gravida. Donec sem quam, imperdiet vel nisl interdum, laoreet accumsan justo.
+            My name is Garrett Blankenship. I am a student at Illinois State University, currently studying computer science.
+            I hope to double major in both computer science and electrical engineering in order to get a job as a computer engineer.
+            I started programming young, but I did not really get into it until high school. I signed up for my high school's 
+            computer science classes. I took Programming 1, Programming 2, AP Computer Science Principles, and AP Computer Science A.
+            Throughout these classes I learned the key components to a computing system. This goes from converting decimal to binary
+            and back, to learning the network layers that make the internet run. I was fortunate enough to have a great teacher for
+            these classes, where not many high schools do. While taking these courses, I also participated in the school robotics
+            team and went to various coding events with friends. My hobbies that I took up were creating mods for games and hosting
+            servers for some of the games as well.
         </p>
     )
 }
