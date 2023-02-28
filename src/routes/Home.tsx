@@ -40,6 +40,7 @@ function Home(){
                 b.avoid(mouseX, mouseY);
                 b.avoidRect(intro[0].getBoundingClientRect().left, intro[0].getBoundingClientRect().top, intro[0].clientWidth, intro[0].clientHeight);
                 b.avoidRect(subheader[0].getBoundingClientRect().left, subheader[0].getBoundingClientRect().top, subheader[0].clientWidth, subheader[0].clientHeight);
+                b.avoidRect(subheader[1].getBoundingClientRect().left, subheader[1].getBoundingClientRect().top, subheader[1].clientWidth, subheader[1].clientHeight);
                 b.draw(canvasCtx);
             }
 
@@ -70,6 +71,7 @@ function Home(){
         <div className="content">
             <div className="header">
                 <div className="intro">Hi, I'm Garrett Blankenship.</div>
+                <div className="subheader">Software Developer.</div>
                 <div className="subheader">I like to make stuff.</div>
                 <canvas id="header-canvas" ref={(c) => setCanvas(c)} />
             </div>
